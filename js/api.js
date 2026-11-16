@@ -1,5 +1,5 @@
 // CONFIG: incolla qui l'URL della Web App di Google Apps Script
-var CFG={API:'https://script.google.com/macros/s/AKfycbxv33HgpGznIgFzqLQ2cW9IyKkxU0Vaqamtu7KPeNtRa87KmWKB4qPsck4j3jLUa0oUuQ/exec'};
+var CFG={API:'https://script.google.com/macros/s/AKfycbwTHRU45nWpEBdG0zRkSm8KAD2zrTUTZ3PH5ExT2Lb5VnUkXZCDhG_DRbwK3xtTvcqwYA/exec'};
 var Api={
   t:sessionStorage.getItem('t'),role:sessionStorage.getItem('r'),
   call:function(a,d){d=d||{};d.a=a;d.t=Api.t;
